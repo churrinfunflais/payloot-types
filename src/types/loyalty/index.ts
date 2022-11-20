@@ -114,7 +114,7 @@ export const enum TransactionType {
     debit = 'debit',
 }
 
-export enum TransactionStatus {
+export const enum TransactionStatus {
     pending = 'pending',
     authorized = 'authorized',
     settled = 'settled',
