@@ -105,7 +105,7 @@ export declare const enum TransactionType {
     credit = "credit",
     debit = "debit"
 }
-export declare enum TransactionStatus {
+export declare const enum TransactionStatus {
     pending = "pending",
     authorized = "authorized",
     settled = "settled",
