@@ -95,6 +95,7 @@ export interface Transaction {
     updateUser?: User;
     status?: TransactionStatus;
     authorization?: Authorization;
+    error?: Error;
 }
 export interface Authorization {
     id: string;
