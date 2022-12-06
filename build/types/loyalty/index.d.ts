@@ -114,10 +114,10 @@ export interface Order {
     shipping?: Shipping;
 }
 export interface Settlement {
-    id: string;
+    id?: string;
     value: number;
-    createUser: User;
-    createTime: Date;
+    createUser?: User;
+    createTime?: Date;
 }
 export interface Cancellation {
     id: string;
