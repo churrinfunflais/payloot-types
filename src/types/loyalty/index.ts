@@ -69,10 +69,7 @@ export interface Card {
     caption?: string;
     loyalty?: string;
     redeemCode?: string;
-    createUser?: {
-        uid: string;
-        email: string;
-    };
+    createUser?: User;
     updateUser?: User;
     redeemToken?: string;
     phone?: string;
@@ -93,10 +90,7 @@ export interface Transaction {
     redeemToken?: string;
     order?: Order;
     createTime?: Date;
-    createUser?: {
-        uid: string;
-        email: string;
-    };
+    createUser?: User;
     updateTime?: Date;
     updateUser?: User;
     status?: TransactionStatus;
