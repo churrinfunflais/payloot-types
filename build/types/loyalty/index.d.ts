@@ -104,6 +104,7 @@ export declare const enum TransactionStatus {
     pending = "pending",
     authorized = "authorized",
     settled = "settled",
+    partiallySettled = "partiallySettled",
     canceled = "canceled",
     error = "error"
 }
