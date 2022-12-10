@@ -105,16 +105,18 @@ export interface Authorization {
 }
 
 export const enum TransactionType {
-    credit = 'credit',
-    debit = 'debit',
+    CREDIT = 'credit',
+    DEBIT = 'debit',
 }
 
 export const enum TransactionStatus {
-    pending = 'pending',
-    authorized = 'authorized',
-    settled = 'settled',
-    canceled = 'canceled',
-    error = 'error',
+    PENDING = 'pending',
+    AUTHORIZED = 'authorized',
+    SETTLED = 'settled',
+    CANCELLED = 'canceled',
+    ERROR = 'error',
+    PARTIALLY_CANCELLED = "partiallySettled",
+    PARTIALLY_SETTLED = "partiallySettled",
 }
 export interface Order {
     id: string;
@@ -143,6 +145,6 @@ export interface User {
 }
 
 export const enum CardIdType {
-    uuid = 'uuid',
-    bin = 'bin',
+    UUID = 'uuid',
+    BIN = 'bin',
 }
