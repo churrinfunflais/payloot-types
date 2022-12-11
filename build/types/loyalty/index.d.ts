@@ -118,12 +118,20 @@ export interface Order {
 export interface Settlement {
     id?: string;
     value: number;
+    status?: TransactionStatus;
+    error?: string;
+    updateUser?: User;
+    updateTime?: Date;
     createUser?: User;
     createTime?: Date;
 }
 export interface Cancellation {
     id?: string;
     value: number;
+    status?: TransactionStatus;
+    error?: string;
+    updateUser?: User;
+    updateTime?: Date;
     createUser?: User;
     createTime?: Date;
 }
