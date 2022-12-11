@@ -119,8 +119,6 @@ export interface Settlement {
     id?: string;
     value: number;
     createUser?: User;
-    updateTime?: Date;
-    updateUser?: User;
     createTime?: Date;
 }
 export interface Cancellation {
@@ -128,8 +126,6 @@ export interface Cancellation {
     value: number;
     createUser?: User;
     createTime?: Date;
-    updateTime?: Date;
-    updateUser?: User;
 }
 export interface User {
     uid: string;
