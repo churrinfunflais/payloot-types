@@ -106,7 +106,7 @@ export declare const enum TransactionStatus {
     SETTLED = "settled",
     CANCELLED = "canceled",
     ERROR = "error",
-    PARTIALLY_CANCELLED = "partiallySettled",
+    PARTIALLY_CANCELLED = "partiallyCancelled",
     PARTIALLY_SETTLED = "partiallySettled"
 }
 export interface Order {
